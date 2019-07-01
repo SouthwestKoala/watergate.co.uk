@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<main>
+    <div class="column left">
+    </div>
+    <div class="column right">
+        <h1>Watergate</h1>
+        <h2>Primary Care Network</h2>
+        <div class="links">
+            {{- range .Site.Params.links -}}
+                <a rel="me" href="{{ .url }}" title="{{ .title }}">
+                    <span class="{{ .iconset | default "fab" }} fa-{{ .icon }}"></span>
+                </a>
+            {{- end -}}
+        </div>
+    </div>
+</main>
+
+{{ end }}

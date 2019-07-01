@@ -1,0 +1,13 @@
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[params]
+  [[params.links]]
+    iconset = "fas"
+    icon = "envelope"
+    title = "E-mail"
+    url = "mailto:hello@watergatepcn.co.uk"
+
+  [[params.links]]
+    icon = "twitter"
+    title = "Twitter"
+    url = "https://twitter.com/"
