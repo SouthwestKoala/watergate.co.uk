@@ -1,3 +1,5 @@
+googleAnalytics = "UA-35915992-2"
+ 
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [params]
