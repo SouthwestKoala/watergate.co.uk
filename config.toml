@@ -10,4 +10,5 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
   [[params.links]]
     icon = "twitter"
     title = "Twitter"
-    url = "https://twitter.com/"
+    url = "https://twitter.com/WatergatePCN"
+
